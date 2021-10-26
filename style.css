@@ -4,18 +4,19 @@ body{
     background-size: cover;
     background-attachment: fixed ;
     background-repeat: no-repeat;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nixie One','Montserrat', sans-serif;
+    font-weight: bold;
 }
 .weatherCard{
-    opacity: 0.88;
+    opacity: 0.85;
     display: flex;
-    width: 460px;
+    width: 90%;
     height:fit-content;
     margin: 5px auto 0 auto;
     padding: 15px;
     border-radius: 20px;
     text-align: center;
-    background-image: white;
+    background-image: honeydew;
     font-weight: 600;
     max-width: 482px;
 }
@@ -28,6 +29,7 @@ body{
     outline: none;
     background-color: rgb(220, 245, 245);
     width: 75%;
+    font-weight: bold;
 }
 
 .search button {
@@ -43,6 +45,7 @@ body{
     transform: scale(1.05);
 }
 
+/* Weather-container starts here */
 /* Notification Bar */
 #notification{
     margin: 0.3em auto;
